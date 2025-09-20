@@ -62,6 +62,17 @@ sed -i 's/\r$//' ~/.local/bin/tempmail
 
 ## Credentials (env vars)
 
+### Getting Your Tokens
+
+To use this CLI, you'll need to obtain API credentials from [TempMail.so](https://tempmail.so):
+
+1. **RAPIDAPI_KEY**: Get this from RapidAPI when you subscribe to the TempMail.so API
+2. **TEMPMAIL_TOKEN**: Get this from your TempMail.so account dashboard
+
+Visit [https://tempmail.so](https://tempmail.so) to sign up and get your tokens.
+
+### Setting Up Environment Variables
+
 ```bash
 # temporary for the current shell
 export RAPIDAPI_KEY="YOUR_RAPIDAPI_KEY"
