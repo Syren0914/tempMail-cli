@@ -2,6 +2,8 @@
 
 A tiny, single-file CLI to spin up a temporary email inbox, watch it live in a terminal UI, copy the address, preview messages (From/Subject/Date + body), and nuke the inbox when you're done.
 
+![TempMail CLI Screenshot](assets/image.png)
+
 ## Quick Start
 
 **Create & watch an inbox:** `tempmail create`
