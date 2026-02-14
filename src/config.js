@@ -17,7 +17,7 @@ const schema = {
   }
 };
 
-const config = new Conf({ projectName: 'tempmail-cli-nodejs', schema });
+const config = new Conf({ projectName: '@syren0914/tempmail-cli', schema });
 
 export async function ensureConfig(force = false) {
   let rk = config.get('rapidapiKey') || process.env.RAPIDAPI_KEY;

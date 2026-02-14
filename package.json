@@ -1,5 +1,5 @@
 {
-  "name": "tempmail-cli",
+  "name": "@syren0914/tempmail-cli",
   "version": "1.0.0",
   "description": "A tiny, single-file CLI to spin up a temporary email inbox, watch it live in a terminal UI.",
   "type": "module",
